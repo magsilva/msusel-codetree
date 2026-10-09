@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ANTLRGenerationPreferences">
+    <option name="perGrammarGenerationSettings">
+      <list>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/../msusel-java-parser/src/main/java/edu/montana/gsoc/msusel/datamodel/parsers/java2/JavaParser.g4" />
+          <option name="outputDir" value="$PROJECT_DIR$/../msusel-java-parser/src/main/java/edu/montana/gsoc/msusel/datamodel/parsers/java2" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="" />
+          <option name="language" value="Java" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+      </list>
+    </option>
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-java-parser/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-loc-metrics/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-metrics/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-config/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-pattern-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-patterns-experimenter/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-quamoco/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-rbml-dsl/pom.xml" />
+        <option value="$PROJECT_DIR$/../msusel-software-injector/pom.xml" />
+        <option value="$PROJECT_DIR$/../isuese-gitsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/../isuese-detstrat/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/../msusel-patterns-experimenter/src/test/java/edu/montana/gsoc/msusel/arc/FindBugsOnly.java" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>

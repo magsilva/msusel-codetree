@@ -1,3 +1,29 @@
+/*
+ * The MIT License (MIT)
+ *
+ * MSUSEL DataModel
+ * Copyright (c) 2015-2019 Montana State University, Gianforte School of Computing,
+ * Software Engineering Laboratory and Idaho State University, Informatics and
+ * Computer Science, Empirical Software Engineering Laboratory
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 package edu.isu.isuese.datamodel;
 
 import org.javalite.activejdbc.test.DBSpec;
@@ -14,13 +40,25 @@ public class TypeRefSpec extends DBSpec {
         typeRef.setType(TypeRefType.Type);
         a(typeRef).shouldBe("valid");
         typeRef.save();
-        typeRef = TypeRef.findById(1);
+        typeRef = (TypeRef) TypeRef.findAll().get(0);
         a(typeRef.getId()).shouldNotBeNull();
         a(typeRef.get("typeName")).shouldBeEqual("typeRef");
         a(typeRef.get("dimensions")).shouldBeNull();
         a(typeRef.get("type")).shouldBeEqual(TypeRefType.Type.value());
         a(typeRef.getType()).shouldBeEqual(TypeRefType.Type);
         a(TypeRef.count()).shouldBeEqual(1);
+    }
+
+    @Test
+    public void testCreatingPrimitive() {
+        TypeRef typeRef = TypeRef.createPrimitiveTypeRef("int");
+        the(typeRef.getId()).shouldNotBeNull();
+    }
+
+    @Test
+    public void testCreatingPrimitiveWithBuilder() {
+        TypeRef typeRef = TypeRef.builder().typeName("test").type(TypeRefType.Type).create();
+        the(typeRef.getId()).shouldNotBeNull();
     }
 
     @Test
@@ -50,7 +88,7 @@ public class TypeRefSpec extends DBSpec {
         typeRef.save();
 
         typeRef.addTypeArg(typeRef2);
-        typeRef = TypeRef.findById(1);
+        typeRef = (TypeRef) TypeRef.findAll().get(0);
         typeRef.remove(typeRef2);
 
         a(typeRef.getTypeArgs().size()).shouldBeEqual(0);
@@ -84,7 +122,7 @@ public class TypeRefSpec extends DBSpec {
         typeRef.save();
 
         typeRef.addBound(typeRef2);
-        typeRef = TypeRef.findById(1);
+        typeRef = (TypeRef) TypeRef.findAll().get(0);
         typeRef.remove(typeRef2);
 
         a(typeRef.getTypeArgs().size()).shouldBeEqual(0);
@@ -115,7 +153,7 @@ public class TypeRefSpec extends DBSpec {
         ref.setType(RefType.TYPE);
 
         typeRef.add(ref);
-        typeRef = TypeRef.findById(1);
+        typeRef = (TypeRef) TypeRef.findAll().get(0);
         typeRef.remove(ref);
 
         a(typeRef.getAll(Reference.class).size()).shouldBeEqual(0);
@@ -130,8 +168,8 @@ public class TypeRefSpec extends DBSpec {
         typeRef.setReference(ref);
         a(typeRef.getAll(Reference.class).size()).shouldBeEqual(1);
         typeRef.setReference(ref2);
-        a(typeRef.getAll(Reference.class).size()).shouldBeEqual(1);
-        a(Reference.count()).shouldBeEqual(1);
+        a(typeRef.getAll(Reference.class).size()).shouldBeEqual(2);
+        a(Reference.count()).shouldBeEqual(2);
     }
 
     @Test

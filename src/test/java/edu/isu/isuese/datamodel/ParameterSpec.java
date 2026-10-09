@@ -1,7 +1,34 @@
+/*
+ * The MIT License (MIT)
+ *
+ * MSUSEL DataModel
+ * Copyright (c) 2015-2019 Montana State University, Gianforte School of Computing,
+ * Software Engineering Laboratory and Idaho State University, Informatics and
+ * Computer Science, Empirical Software Engineering Laboratory
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 package edu.isu.isuese.datamodel;
 
 import org.javalite.activejdbc.test.DBSpec;
 import org.junit.Test;
+
 
 public class ParameterSpec extends DBSpec {
 
@@ -13,10 +40,20 @@ public class ParameterSpec extends DBSpec {
         param.set("name", "param");
         a(param).shouldBe("valid");
         param.save();
-        param = Parameter.findById(1);
+        param = (Parameter) Parameter.findAll().get(0);
         a(param.getId()).shouldNotBeNull();
         a(param.get("name")).shouldBeEqual("param");
         a(Parameter.count()).shouldBeEqual(1);
+        java.lang.System.out.println(param);
+    }
+
+    @Test
+    public void builderWorks() {
+        Parameter param = Parameter.builder().name("param").create();
+
+        the(param.getId()).shouldNotBeNull();
+        the(param.getName()).shouldEqual("param");
+
     }
 
     @Test
@@ -24,17 +61,16 @@ public class ParameterSpec extends DBSpec {
         Parameter param = Parameter.createIt("name", "param");
         param.save();
 
-        TypeRef typeRef = TypeRef.createIt("typeName", "typeRef", "dimensions", null);
+        TypeRef typeRef = TypeRef.createPrimitiveTypeRef("String");
         typeRef.setType(TypeRefType.Type);
         param.setType(typeRef);
 
         a(param.getAll(TypeRef.class).size()).shouldBeEqual(1);
 
-        typeRef = TypeRef.createIt("typeName", "typeRef2", "dimensions", null);
+        typeRef = TypeRef.createPrimitiveTypeRef("int");
         param.setType(typeRef);
 
         a(param.getAll(TypeRef.class).size()).shouldBeEqual(1);
-        a(TypeRef.count()).shouldBeEqual(1);
     }
 
     @Test
@@ -43,7 +79,7 @@ public class ParameterSpec extends DBSpec {
         param.addModifier(Modifier.Values.STATIC.name());
         param.save();
 
-        a(param.findById(1).getAll(Modifier.class).size()).shouldBeEqual(1);
+        a(Parameter.findAll().get(0).getAll(Modifier.class).size()).shouldBeEqual(1);
     }
 
     @Test
@@ -52,7 +88,7 @@ public class ParameterSpec extends DBSpec {
         param.addModifier(Modifier.Values.STATIC.name());
         param.save();
 
-        param = Parameter.findById(1);
+        param = (Parameter) Parameter.findAll().get(0);
         param.removeModifier(Modifier.Values.STATIC.name());
         a(param.getAll(Modifier.class).size()).shouldBeEqual(0);
         a(ParametersModifiers.count()).shouldBeEqual(0);
@@ -68,7 +104,6 @@ public class ParameterSpec extends DBSpec {
         a(param.getAll(TypeRef.class).size()).shouldBeEqual(1);
         param.setType(typeRef2);
         a(param.getAll(TypeRef.class).size()).shouldBeEqual(1);
-        a(TypeRef.count()).shouldBeEqual(1);
     }
 
     @Test

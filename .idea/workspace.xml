@@ -1,284 +1,322 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bd27009b-8779-41fd-99c7-a341d97636e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymockclassextension_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_org_eclipse_jdt_annotation_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uml/codetree2.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/uml/codetree2.mdj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msusel-pattern-generator/src/main/resources/cues/java/template_method.tp" beforeDir="false" afterPath="$PROJECT_DIR$/../msusel-pattern-generator/src/main/resources/cues/java/template_method.tp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msusel-patterns-experimenter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msusel-patterns-experimenter/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1463290147">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="8" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="8" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="577" />
-          <entry key="xml" value="72" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="577" />
-          <entry key="XML" value="72" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/montana/gsoc/msusel/util/MetricNameRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="118" column="5" lean-forward="true" selection-start-line="105" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/util/MetricsRegistrar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/util/DbUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="143" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="DepsLocalSettings">
+    <option name="repoId" value="" />
+    <option name="repoUrl" value="" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../msusel-pattern-generator" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/util/MetricRegistry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/util/MetricsRegistrar.java" />
-      </list>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="failureBehavior" value="NEVER" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="11" />
+    <option name="runMavenInBackground" value="false" />
+    <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1012" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="datamodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="msusel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="msusel" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msusel-codetree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msusel-datamodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="datamodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1QdiM4WhfriEspsA10pi6NhkUoC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToKeyword.includeLibraries" value="false" />
+    <property name="GoToNamespace.includeLibraries" value="false" />
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/git/msusel/msusel-metrics/src/main/groovy/edu/montana/gsoc/msusel/metrics/AbstractLOCMetric.groovy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543211493412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547682444928" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="org.javalite.activejdbc.test.DBSpec" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock" value="spock.lang.Specification" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/groovy/edu/isu/isuese/datamodel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.montana.gsoc.msusel.quamoco.processor.extents" />
+      <recent name="edu.montana.gsoc.msusel.inject.transform" />
+      <recent name="edu.montana.gsoc.msusel.inject.transform.model" />
       <recent name="edu.isu.isuese.datamodel.util" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/migrations" />
+      <recent name="$PROJECT_DIR$/../msusel-patterns-experimenter/src/main/resources/edu/montana/gsoc/msusel/arc/impl/pmd" />
+      <recent name="$PROJECT_DIR$/../isuese-detstrat/src/migrations" />
+      <recent name="$PROJECT_DIR$/../msusel-parent/src" />
+      <recent name="$PROJECT_DIR$/../msusel-quamoco/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="spock.lang.Specification" />
+      <recent name="org.javalite.activejdbc.test.DBSpec" />
+      <recent name="" />
+      <recent name="edu.montana.gsoc.msusel.inject.transform.BaseSourceTransformSpec" />
+      <recent name="edu.montana.gsoc.msusel.inject.transform.model.namespace.NamespaceModelTransformBaseTest" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="edu.isu.isuese.detstrat.impl.GrimeDetectorConstants" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/migrations.old" />
+      <recent name="$PROJECT_DIR$/../msusel-patterns-experimenter/src/main/resources/edu/montana/gsoc/msusel/arc/impl/td" />
+      <recent name="$PROJECT_DIR$/../msusel-patterns-experimenter/src/main/resources" />
+      <recent name="$PROJECT_DIR$/../msusel-patterns-experimenter/src/test/java/edu/montana/gsoc/msusel/arc/impl/td/strategies" />
+      <recent name="$PROJECT_DIR$/../msusel-patterns-experimenter/scripts/rulegen" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.montana.gsoc.msusel.arc.impl.metrics" />
+      <recent name="edu.montana.gsoc.msusel.arc.impl.pmd" />
+      <recent name="edu.montana.gsoc.msusel.datamodel.parsers" />
+      <recent name="edu.montana.gsoc.msusel.arc.impl.java" />
+      <recent name="edu.montana.gsoc.msusel.arc" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.isu.isuese.datamodel.util" />
+      <recent name="edu.montana.gsoc.msusel.datamodel.parsers" />
+      <recent name="edu.isu.isuese.detstrat.impl" />
+      <recent name="edu.isu.isuese.detstrat" />
+      <recent name="edu.montana.gsoc.msusel.inject.transform.source" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.montana.gsoc.msusel.arc.app.runner.test" />
+      <recent name="edu.montana.gsoc.msusel.arc.impl.java" />
+      <recent name="edu.montana.gsoc.msusel.arc.impl.metrics" />
+      <recent name="edu.isu.isuese.datamodel" />
+      <recent name="edu.montana.gsoc.msusel.datamodel.parsers" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn process-classes" />
+      <command value="mvn msusel-codetree process-classes" />
+      <command value="mvn clean compile" />
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ClassGrimeInjectorTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="NREPL" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ClassGrimeInjectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msusel-software-injector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.montana.gsoc.msusel.inject.grime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.montana.gsoc.msusel.inject.grime" />
+      <option name="MAIN_CLASS_NAME" value="edu.montana.gsoc.msusel.inject.grime.ClassGrimeInjectorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="datamodel in msusel-codetree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msusel-codetree" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/edu/isu/isuese/datamodel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.isu.isuese.datamodel.util in msusel-codetree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msusel-codetree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.isu.isuese.datamodel.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.isu.isuese.datamodel.util" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="groovy in msusel-codetree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msusel-codetree" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/groovy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in msusel-codetree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msusel-codetree" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ClassGrimeInjectorTest" />
+      <item itemvalue="JUnit.datamodel in msusel-codetree" />
+      <item itemvalue="JUnit.edu.isu.isuese.datamodel.util in msusel-codetree" />
+      <item itemvalue="JUnit.groovy in msusel-codetree" />
+      <item itemvalue="JUnit.java in msusel-codetree" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in msusel-codetree" />
+        <item itemvalue="JUnit.groovy in msusel-codetree" />
+        <item itemvalue="JUnit.edu.isu.isuese.datamodel.util in msusel-codetree" />
+        <item itemvalue="JUnit.datamodel in msusel-codetree" />
+        <item itemvalue="JUnit.ClassGrimeInjectorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1556400320317" text="montana.gsoc.msusel.codetree" recursive="true" caseInsensitive="true" type="Groovy" scope_type="MODULE" scope_descriptor="msusel-software-injector" history="1">
+      <constraint name="__context__" target="true" within="" contains="" />
+    </searchConfiguration>
+    <replaceConfiguration name="user defined" created="1556400082179" text="montana.gsoc.msusel.codetree" recursive="false" caseInsensitive="true" type="Groovy" scope_type="MODULE" scope_descriptor="msusel-software-injector" reformatAccordingToStyle="false" shortenFQN="false" replacement="isu.isuese.datamodel" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </replaceConfiguration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -291,111 +329,705 @@
       <option name="presentableId" value="Default" />
       <updated>1543207454883</updated>
       <workItem from="1543207460094" duration="3797000" />
+      <workItem from="1543214988733" duration="13651000" />
+      <workItem from="1543330869557" duration="2465000" />
+      <workItem from="1543361218256" duration="29268000" />
+      <workItem from="1543584334542" duration="16891000" />
+      <workItem from="1543701769837" duration="7865000" />
+      <workItem from="1544072535612" duration="7229000" />
+      <workItem from="1544643086411" duration="16130000" />
+      <workItem from="1544736933200" duration="2373000" />
+      <workItem from="1544804905614" duration="1447000" />
+      <workItem from="1545568415048" duration="5939000" />
+      <workItem from="1545650827007" duration="12543000" />
+      <workItem from="1545989106889" duration="6536000" />
+      <workItem from="1546050332967" duration="1359000" />
+      <workItem from="1546334477395" duration="1096000" />
+      <workItem from="1547152404992" duration="376000" />
+      <workItem from="1547508976975" duration="2015000" />
+      <workItem from="1547586554545" duration="2448000" />
+      <workItem from="1547616597583" duration="599000" />
+      <workItem from="1547676939657" duration="2891000" />
+      <workItem from="1547743596731" duration="3079000" />
+      <workItem from="1547871819374" duration="1384000" />
+      <workItem from="1547881893559" duration="167000" />
+      <workItem from="1547882111130" duration="1252000" />
+      <workItem from="1547950628559" duration="7918000" />
+      <workItem from="1547973613797" duration="1386000" />
+      <workItem from="1548019631046" duration="1635000" />
+      <workItem from="1548061389990" duration="1270000" />
+      <workItem from="1548111467422" duration="4312000" />
+      <workItem from="1548187803028" duration="598000" />
+      <workItem from="1548300334349" duration="599000" />
+      <workItem from="1548368919030" duration="595000" />
+      <workItem from="1548461991992" duration="599000" />
+      <workItem from="1548553821449" duration="2403000" />
+      <workItem from="1548654608148" duration="5585000" />
+      <workItem from="1548723310928" duration="11815000" />
+      <workItem from="1549092440424" duration="3939000" />
+      <workItem from="1549202397719" duration="8842000" />
+      <workItem from="1549327076193" duration="635000" />
+      <workItem from="1549398123244" duration="3223000" />
+      <workItem from="1549444589141" duration="599000" />
+      <workItem from="1549575877664" duration="597000" />
+      <workItem from="1549596070648" duration="629000" />
+      <workItem from="1549748975036" duration="25550000" />
+      <workItem from="1549937694316" duration="597000" />
+      <workItem from="1550007111022" duration="599000" />
+      <workItem from="1550048376247" duration="2697000" />
+      <workItem from="1550197848429" duration="608000" />
+      <workItem from="1550309662640" duration="50491000" />
+      <workItem from="1550659463785" duration="4601000" />
+      <workItem from="1550693335872" duration="3479000" />
+      <workItem from="1550707453962" duration="5623000" />
+      <workItem from="1550783277713" duration="630000" />
+      <workItem from="1550784946235" duration="613000" />
+      <workItem from="1551218096467" duration="599000" />
+      <workItem from="1551437003880" duration="623000" />
+      <workItem from="1551578487293" duration="343000" />
+      <workItem from="1551669900007" duration="2728000" />
+      <workItem from="1551694864220" duration="3648000" />
+      <workItem from="1552229784513" duration="615000" />
+      <workItem from="1552303982283" duration="843000" />
+      <workItem from="1552415192903" duration="606000" />
+      <workItem from="1552480288812" duration="1802000" />
+      <workItem from="1552655880637" duration="1318000" />
+      <workItem from="1552676662907" duration="36000" />
+      <workItem from="1552676725512" duration="682000" />
+      <workItem from="1552677485257" duration="668000" />
+      <workItem from="1552678338511" duration="78000" />
+      <workItem from="1552678447832" duration="1144000" />
+      <workItem from="1552962122152" duration="2658000" />
+      <workItem from="1553006192201" duration="2870000" />
+      <workItem from="1553011434484" duration="6337000" />
+      <workItem from="1553098330190" duration="3093000" />
+      <workItem from="1553201459745" duration="1474000" />
+      <workItem from="1553207329182" duration="1211000" />
+      <workItem from="1553274629378" duration="2646000" />
+      <workItem from="1553633671009" duration="262000" />
+      <workItem from="1553741205047" duration="35000" />
+      <workItem from="1553741270577" duration="40000" />
+      <workItem from="1553741350043" duration="34000" />
+      <workItem from="1553741409674" duration="11905000" />
+      <workItem from="1553790838719" duration="1433000" />
+      <workItem from="1553821324693" duration="776000" />
+      <workItem from="1553901653915" duration="259000" />
+      <workItem from="1554149420538" duration="1718000" />
+      <workItem from="1554151172859" duration="802000" />
+      <workItem from="1554180072323" duration="858000" />
+      <workItem from="1554247764970" duration="605000" />
+      <workItem from="1554321971363" duration="6051000" />
+      <workItem from="1554358958967" duration="195000" />
+      <workItem from="1554359176239" duration="4611000" />
+      <workItem from="1554401330526" duration="3598000" />
+      <workItem from="1554487081730" duration="607000" />
+      <workItem from="1554547079744" duration="8933000" />
+      <workItem from="1554585643078" duration="6629000" />
+      <workItem from="1554671007978" duration="3038000" />
+      <workItem from="1554717429304" duration="648000" />
+      <workItem from="1554750489019" duration="610000" />
+      <workItem from="1554820813365" duration="2251000" />
+      <workItem from="1554880754742" duration="661000" />
+      <workItem from="1554924929765" duration="4367000" />
+      <workItem from="1555023059433" duration="1453000" />
+      <workItem from="1555086091220" duration="746000" />
+      <workItem from="1555087580501" duration="3038000" />
+      <workItem from="1555322161905" duration="884000" />
+      <workItem from="1555343501439" duration="9130000" />
+      <workItem from="1555545350750" duration="667000" />
+      <workItem from="1555792827731" duration="930000" />
+      <workItem from="1556051686016" duration="674000" />
+      <workItem from="1556117717753" duration="1205000" />
+      <workItem from="1556182554123" duration="3758000" />
+      <workItem from="1556228832313" duration="5055000" />
+      <workItem from="1556259531066" duration="1296000" />
+      <workItem from="1556328958966" duration="4915000" />
+      <workItem from="1556399335000" duration="4815000" />
+      <workItem from="1556429019486" duration="632000" />
+      <workItem from="1556435599940" duration="2669000" />
+      <workItem from="1556492102245" duration="774000" />
+      <workItem from="1556567061445" duration="701000" />
+      <workItem from="1556662712951" duration="884000" />
+      <workItem from="1556663645816" duration="2917000" />
+      <workItem from="1556670517104" duration="3499000" />
+      <workItem from="1556761595084" duration="1160000" />
+      <workItem from="1556762798612" duration="593000" />
+      <workItem from="1556778626866" duration="595000" />
+      <workItem from="1556976818242" duration="618000" />
+      <workItem from="1556977753032" duration="376000" />
+      <workItem from="1557094248131" duration="841000" />
+      <workItem from="1557139892954" duration="1481000" />
+      <workItem from="1557185216048" duration="641000" />
+      <workItem from="1557219152853" duration="909000" />
+      <workItem from="1557229154292" duration="618000" />
+      <workItem from="1557305392245" duration="8384000" />
+      <workItem from="1557371704488" duration="1980000" />
+      <workItem from="1557394073379" duration="9794000" />
+      <workItem from="1557476184434" duration="5942000" />
+      <workItem from="1557674502901" duration="2449000" />
+      <workItem from="1557764072761" duration="801000" />
+      <workItem from="1557851454465" duration="2834000" />
+      <workItem from="1557934646042" duration="2076000" />
+      <workItem from="1557987660078" duration="2423000" />
+      <workItem from="1558367958844" duration="4000" />
+      <workItem from="1558449872987" duration="733000" />
+      <workItem from="1558457807380" duration="654000" />
+      <workItem from="1558477069562" duration="562000" />
+      <workItem from="1558628266153" duration="2235000" />
+      <workItem from="1558820359418" duration="1196000" />
+      <workItem from="1559002323773" duration="801000" />
+      <workItem from="1559003797058" duration="1806000" />
+      <workItem from="1559104450744" duration="5408000" />
+      <workItem from="1559158325129" duration="610000" />
+      <workItem from="1559171251862" duration="595000" />
+      <workItem from="1559248495706" duration="1197000" />
+      <workItem from="1559267633183" duration="14000" />
+      <workItem from="1559269814340" duration="4190000" />
+      <workItem from="1559525855762" duration="126000" />
+      <workItem from="1559526164851" duration="13103000" />
+      <workItem from="1559648181766" duration="242000" />
+      <workItem from="1559648469737" duration="36000" />
+      <workItem from="1559648540493" duration="636000" />
+      <workItem from="1559768651285" duration="3563000" />
+      <workItem from="1559825293571" duration="1549000" />
+      <workItem from="1559932909115" duration="4288000" />
+      <workItem from="1559961120534" duration="3447000" />
+      <workItem from="1560166323274" duration="1283000" />
+      <workItem from="1560177533702" duration="5809000" />
+      <workItem from="1560242253946" duration="5960000" />
+      <workItem from="1560335038678" duration="2995000" />
+      <workItem from="1560399947998" duration="1302000" />
+      <workItem from="1560504140103" duration="7422000" />
+      <workItem from="1560593801255" duration="1208000" />
+      <workItem from="1560746732352" duration="604000" />
+      <workItem from="1560747377939" duration="121000" />
+      <workItem from="1560749542097" duration="1692000" />
+      <workItem from="1560764233594" duration="596000" />
+      <workItem from="1560766192801" duration="615000" />
+      <workItem from="1560819204814" duration="24807000" />
+      <workItem from="1561012283378" duration="21303000" />
+      <workItem from="1561127688499" duration="10052000" />
+      <workItem from="1561190258136" duration="20390000" />
+      <workItem from="1561395043370" duration="602000" />
+      <workItem from="1561460739287" duration="600000" />
+      <workItem from="1561642974778" duration="2089000" />
+      <workItem from="1561740383239" duration="1255000" />
+      <workItem from="1561827209820" duration="4961000" />
+      <workItem from="1562082332195" duration="3996000" />
+      <workItem from="1562178309729" duration="597000" />
+      <workItem from="1562226797670" duration="591000" />
+      <workItem from="1562361454385" duration="1027000" />
+      <workItem from="1562443261968" duration="2416000" />
+      <workItem from="1562648028484" duration="1206000" />
+      <workItem from="1562767201948" duration="5304000" />
+      <workItem from="1563338580196" duration="609000" />
+      <workItem from="1563461229143" duration="611000" />
+      <workItem from="1563506024058" duration="597000" />
+      <workItem from="1563609054545" duration="8584000" />
+      <workItem from="1563946967056" duration="10286000" />
+      <workItem from="1564093145126" duration="602000" />
+      <workItem from="1564103671837" duration="3304000" />
+      <workItem from="1564258403115" duration="597000" />
+      <workItem from="1564272794551" duration="11871000" />
+      <workItem from="1564711514393" duration="3721000" />
+      <workItem from="1565315081910" duration="597000" />
+      <workItem from="1565380624060" duration="1199000" />
+      <workItem from="1565500123122" duration="7517000" />
+      <workItem from="1565628681402" duration="723000" />
+      <workItem from="1565696182950" duration="605000" />
+      <workItem from="1565716538174" duration="598000" />
+      <workItem from="1565849492554" duration="3077000" />
+      <workItem from="1566029261678" duration="611000" />
+      <workItem from="1566487333571" duration="663000" />
+      <workItem from="1566684077976" duration="5379000" />
+      <workItem from="1566743880098" duration="6017000" />
+      <workItem from="1566755884560" duration="3000" />
+      <workItem from="1567093801168" duration="1008000" />
+      <workItem from="1567121209449" duration="7890000" />
+      <workItem from="1567137679126" duration="805000" />
+      <workItem from="1567464974793" duration="2626000" />
+      <workItem from="1567847216150" duration="12000" />
+      <workItem from="1567931470295" duration="6078000" />
+      <workItem from="1568106659872" duration="39000" />
+      <workItem from="1568106741771" duration="40000" />
+      <workItem from="1568106833495" duration="80000" />
+      <workItem from="1568106949157" duration="689000" />
+      <workItem from="1568304057930" duration="665000" />
+      <workItem from="1568331614188" duration="620000" />
+      <workItem from="1569108076848" duration="5873000" />
+      <workItem from="1569338339636" duration="635000" />
+      <workItem from="1569483914598" duration="4763000" />
+      <workItem from="1569513646437" duration="596000" />
+      <workItem from="1569847818345" duration="634000" />
+      <workItem from="1569875733130" duration="3444000" />
+      <workItem from="1569915939384" duration="1649000" />
+      <workItem from="1570006419971" duration="88000" />
+      <workItem from="1570006539743" duration="1287000" />
+      <workItem from="1570039664167" duration="597000" />
+      <workItem from="1570105507133" duration="616000" />
+      <workItem from="1570117426557" duration="601000" />
+      <workItem from="1570317178515" duration="385000" />
+      <workItem from="1570317688373" duration="3749000" />
+      <workItem from="1570453148263" duration="4392000" />
+      <workItem from="1570527318019" duration="1271000" />
+      <workItem from="1570550672574" duration="1077000" />
+      <workItem from="1571410571678" duration="442000" />
+      <workItem from="1571411063321" duration="596000" />
+      <workItem from="1571413902614" duration="605000" />
+      <workItem from="1571496881890" duration="618000" />
+      <workItem from="1572860263683" duration="604000" />
+      <workItem from="1572896063516" duration="1197000" />
+      <workItem from="1572971251120" duration="598000" />
+      <workItem from="1572973595813" duration="590000" />
+      <workItem from="1572998166859" duration="599000" />
+      <workItem from="1573066816652" duration="5126000" />
+      <workItem from="1573087907416" duration="1858000" />
+      <workItem from="1573144312892" duration="611000" />
+      <workItem from="1573162417029" duration="1431000" />
+      <workItem from="1573183896206" duration="5236000" />
+      <workItem from="1573233944973" duration="11768000" />
+      <workItem from="1573265142045" duration="3348000" />
+      <workItem from="1573339931426" duration="23547000" />
+      <workItem from="1573421838295" duration="29442000" />
+      <workItem from="1573486423415" duration="12467000" />
+      <workItem from="1573546839441" duration="8828000" />
+      <workItem from="1573576011211" duration="1812000" />
+      <workItem from="1573667634050" duration="4024000" />
+      <workItem from="1573720154839" duration="624000" />
+      <workItem from="1573741834946" duration="604000" />
+      <workItem from="1573751870369" duration="883000" />
+      <workItem from="1573773359188" duration="601000" />
+      <workItem from="1573803842047" duration="615000" />
+      <workItem from="1573865790711" duration="1245000" />
+      <workItem from="1573987951728" duration="12931000" />
+      <workItem from="1574146196038" duration="9948000" />
+      <workItem from="1574241968304" duration="3582000" />
+      <workItem from="1574266671418" duration="2807000" />
+      <workItem from="1574876266654" duration="931000" />
+      <workItem from="1575060076613" duration="6993000" />
+      <workItem from="1575660993837" duration="2351000" />
+      <workItem from="1575757262454" duration="596000" />
+      <workItem from="1576188669000" duration="591000" />
+      <workItem from="1576869716428" duration="599000" />
+      <workItem from="1576980664514" duration="3089000" />
+      <workItem from="1577014753839" duration="788000" />
+      <workItem from="1577208188695" duration="5581000" />
+      <workItem from="1577458919827" duration="611000" />
+      <workItem from="1577514683468" duration="4518000" />
+      <workItem from="1577649889640" duration="597000" />
+      <workItem from="1577671012352" duration="4029000" />
+      <workItem from="1577751648919" duration="8689000" />
+      <workItem from="1577785716652" duration="603000" />
+      <workItem from="1577821787125" duration="818000" />
+      <workItem from="1577830236334" duration="9603000" />
+      <workItem from="1578208401689" duration="620000" />
+      <workItem from="1578226952387" duration="2922000" />
+      <workItem from="1578367622391" duration="936000" />
+      <workItem from="1578375379203" duration="20103000" />
+      <workItem from="1578458760894" duration="2531000" />
+      <workItem from="1578538119497" duration="6821000" />
+      <workItem from="1578571219668" duration="14280000" />
+      <workItem from="1578674036242" duration="601000" />
+      <workItem from="1578697072246" duration="623000" />
+      <workItem from="1578708946419" duration="2753000" />
+      <workItem from="1579182887737" duration="5237000" />
+      <workItem from="1579194049095" duration="13996000" />
+      <workItem from="1579268435571" duration="6998000" />
+      <workItem from="1579284469349" duration="3049000" />
+      <workItem from="1579321536499" duration="773000" />
+      <workItem from="1579369436515" duration="8073000" />
+      <workItem from="1579465353107" duration="648000" />
+      <workItem from="1579470424979" duration="2182000" />
+      <workItem from="1579626020708" duration="4918000" />
+      <workItem from="1579640818082" duration="3866000" />
+      <workItem from="1579722331764" duration="1914000" />
+      <workItem from="1579738439969" duration="7790000" />
+      <workItem from="1579791341602" duration="14249000" />
+      <workItem from="1579883731223" duration="831000" />
+      <workItem from="1579896008299" duration="1064000" />
+      <workItem from="1579918268781" duration="1205000" />
+      <workItem from="1579983101733" duration="10752000" />
+      <workItem from="1580277196065" duration="1802000" />
+      <workItem from="1580394909068" duration="1200000" />
+      <workItem from="1580419607450" duration="10563000" />
+      <workItem from="1580519161343" duration="6475000" />
+      <workItem from="1580590694184" duration="27700000" />
+      <workItem from="1580642820238" duration="618000" />
+      <workItem from="1580682592904" duration="29214000" />
+      <workItem from="1580803689807" duration="16418000" />
+      <workItem from="1580879503612" duration="657000" />
+      <workItem from="1580919002670" duration="1710000" />
+      <workItem from="1580925986930" duration="2886000" />
+      <workItem from="1580945320663" duration="728000" />
+      <workItem from="1580954724071" duration="7282000" />
+      <workItem from="1580995649980" duration="29675000" />
+      <workItem from="1581071000176" duration="5990000" />
+      <workItem from="1581144776386" duration="28332000" />
+      <workItem from="1581380228055" duration="47054000" />
+      <workItem from="1581526965547" duration="619000" />
+      <workItem from="1581534369889" duration="971000" />
+      <workItem from="1581591034848" duration="12630000" />
+      <workItem from="1581608536370" duration="5655000" />
+      <workItem from="1581634839285" duration="959000" />
+      <workItem from="1581668709894" duration="4773000" />
+      <workItem from="1581700761323" duration="597000" />
+      <workItem from="1581751409508" duration="7675000" />
+      <workItem from="1581847144210" duration="801000" />
+      <workItem from="1581850169269" duration="692000" />
+      <workItem from="1581851722274" duration="37532000" />
+      <workItem from="1581979694021" duration="8082000" />
+      <workItem from="1582021817848" duration="5318000" />
+      <workItem from="1582029579965" duration="11988000" />
+      <workItem from="1582109249227" duration="17618000" />
+      <workItem from="1582133062189" duration="610000" />
+      <workItem from="1582139317806" duration="5404000" />
+      <workItem from="1582148181495" duration="334000" />
+      <workItem from="1582149844095" duration="1477000" />
+      <workItem from="1582191282786" duration="14058000" />
+      <workItem from="1582216962250" duration="5738000" />
+      <workItem from="1582226101396" duration="605000" />
+      <workItem from="1582232835510" duration="2721000" />
+      <workItem from="1582287153377" duration="640000" />
+      <workItem from="1582305353213" duration="615000" />
+      <workItem from="1582310379365" duration="598000" />
+      <workItem from="1582379737366" duration="16269000" />
+      <workItem from="1582485947317" duration="21187000" />
+      <workItem from="1582558740187" duration="1296000" />
+      <workItem from="1582564328972" duration="619000" />
+      <workItem from="1582573649924" duration="604000" />
+      <workItem from="1582595108726" duration="2209000" />
+      <workItem from="1582642701182" duration="5856000" />
+      <workItem from="1582648967039" duration="18448000" />
+      <workItem from="1582687258447" duration="4302000" />
+      <workItem from="1582812477375" duration="16320000" />
+      <workItem from="1582907255167" duration="2023000" />
+      <workItem from="1582949396085" duration="3168000" />
+      <workItem from="1583013899400" duration="15078000" />
+      <workItem from="1583045302337" duration="7970000" />
+      <workItem from="1583112716802" duration="6519000" />
+      <workItem from="1583146716319" duration="959000" />
+      <workItem from="1583150471338" duration="6773000" />
+      <workItem from="1583217637503" duration="2245000" />
+      <workItem from="1583249328350" duration="11305000" />
+      <workItem from="1583390313018" duration="1780000" />
+      <workItem from="1583394981697" duration="4553000" />
+      <workItem from="1583466585116" duration="3002000" />
+      <workItem from="1583518511646" duration="623000" />
+      <workItem from="1583557540966" duration="16723000" />
+      <workItem from="1583668425032" duration="2982000" />
+      <workItem from="1583701178769" duration="608000" />
+      <workItem from="1583710939738" duration="9512000" />
+      <workItem from="1583727647400" duration="13062000" />
+      <workItem from="1583830899386" duration="10685000" />
+      <workItem from="1583867978906" duration="4482000" />
+      <workItem from="1584035696454" duration="3507000" />
+      <workItem from="1584087110088" duration="13207000" />
+      <workItem from="1584214945448" duration="1799000" />
+      <workItem from="1584266611427" duration="1206000" />
+      <workItem from="1584303738168" duration="20083000" />
+      <workItem from="1584478143855" duration="13985000" />
+      <workItem from="1584532559876" duration="32396000" />
+      <workItem from="1584618044083" duration="1405000" />
+      <workItem from="1584619786254" duration="4092000" />
+      <workItem from="1584651309196" duration="24753000" />
+      <workItem from="1584791173919" duration="4288000" />
+      <workItem from="1584840384271" duration="59954000" />
+      <workItem from="1585063627162" duration="33046000" />
+      <workItem from="1585229008570" duration="69618000" />
+      <workItem from="1585467891438" duration="6856000" />
+      <workItem from="1585492229448" duration="18554000" />
+      <workItem from="1585571337824" duration="16430000" />
+      <workItem from="1585592454430" duration="13367000" />
+      <workItem from="1585669212481" duration="8744000" />
+      <workItem from="1585680578053" duration="26111000" />
+      <workItem from="1585824615102" duration="10922000" />
+      <workItem from="1585859228607" duration="3897000" />
+      <workItem from="1585911645471" duration="20236000" />
+      <workItem from="1586044617247" duration="3695000" />
+      <workItem from="1586051206435" duration="33025000" />
+      <workItem from="1586132422523" duration="54984000" />
+      <workItem from="1586384371116" duration="9857000" />
+      <workItem from="1586476869713" duration="4011000" />
+      <workItem from="1586547422356" duration="6677000" />
+      <workItem from="1586728301870" duration="2199000" />
+      <workItem from="1586845949910" duration="1201000" />
+      <workItem from="1586860798332" duration="499000" />
+      <workItem from="1586861329890" duration="12959000" />
+      <workItem from="1586977478390" duration="55189000" />
+      <workItem from="1587185422913" duration="16298000" />
+      <workItem from="1587250595220" duration="1261000" />
+      <workItem from="1587263253186" duration="598000" />
+      <workItem from="1587270707546" duration="1142000" />
+      <workItem from="1587298711087" duration="37305000" />
+      <workItem from="1587583635170" duration="2433000" />
+      <workItem from="1587646115431" duration="3574000" />
+      <workItem from="1587661903948" duration="28340000" />
+      <workItem from="1587903002958" duration="2416000" />
+      <workItem from="1587978623779" duration="14952000" />
+      <workItem from="1588162815065" duration="11246000" />
+      <workItem from="1588203106304" duration="25947000" />
+      <workItem from="1588291080890" duration="6036000" />
+      <workItem from="1588352064893" duration="1667000" />
+      <workItem from="1588422219624" duration="607000" />
+      <workItem from="1588604468642" duration="526000" />
+      <workItem from="1588605823115" duration="36026000" />
+      <workItem from="1588792725560" duration="86000" />
+      <workItem from="1588792843246" duration="120000" />
+      <workItem from="1588792998879" duration="945000" />
+      <workItem from="1588794009589" duration="1108000" />
+      <workItem from="1588795248763" duration="238000" />
+      <workItem from="1588795526803" duration="7253000" />
+      <workItem from="1588812106734" duration="4000" />
+      <workItem from="1588962823501" duration="478000" />
+      <workItem from="1588972161087" duration="4820000" />
+      <workItem from="1589066741213" duration="2663000" />
+      <workItem from="1589104968792" duration="8257000" />
+      <workItem from="1589266361466" duration="1825000" />
+      <workItem from="1589330179480" duration="7529000" />
+      <workItem from="1589357558996" duration="12000" />
+      <workItem from="1589364181068" duration="2048000" />
+      <workItem from="1589411654098" duration="2404000" />
+      <workItem from="1589427578596" duration="3319000" />
+      <workItem from="1589460141852" duration="8608000" />
+      <workItem from="1589549121184" duration="618000" />
+      <workItem from="1589722114427" duration="7107000" />
+      <workItem from="1589830356909" duration="6236000" />
+      <workItem from="1589886950575" duration="15935000" />
+      <workItem from="1589915541533" duration="2731000" />
+      <workItem from="1589953320543" duration="21062000" />
+      <workItem from="1590259546252" duration="608000" />
+      <workItem from="1590331155906" duration="601000" />
+      <workItem from="1590350192557" duration="1246000" />
+      <workItem from="1590398418988" duration="285000" />
+      <workItem from="1590398735223" duration="17230000" />
+      <workItem from="1590419195405" duration="23616000" />
+      <workItem from="1590586726602" duration="2027000" />
+      <workItem from="1590657458429" duration="28000" />
+      <workItem from="1590657518280" duration="12434000" />
+      <workItem from="1590748049286" duration="1001000" />
+      <workItem from="1590854621822" duration="23000" />
+      <workItem from="1590854669987" duration="21609000" />
+      <workItem from="1590891566221" duration="7380000" />
+      <workItem from="1590930772338" duration="8920000" />
+      <workItem from="1591018884403" duration="11524000" />
+      <workItem from="1591043574452" duration="2079000" />
+      <workItem from="1591118049026" duration="18942000" />
+      <workItem from="1591200853004" duration="14802000" />
+      <workItem from="1591232731415" duration="13231000" />
+      <workItem from="1591293357592" duration="10054000" />
+      <workItem from="1591380681156" duration="56510000" />
+      <workItem from="1591673841183" duration="19417000" />
+      <workItem from="1591784416584" duration="18036000" />
+      <workItem from="1592069625005" duration="76244000" />
+      <workItem from="1592330042290" duration="2927000" />
+      <workItem from="1592471286844" duration="17994000" />
+      <workItem from="1592551684736" duration="2718000" />
+      <workItem from="1592557475567" duration="37661000" />
+      <workItem from="1592762400749" duration="17317000" />
+      <workItem from="1593029765013" duration="619000" />
+      <workItem from="1593030409138" duration="67356000" />
+      <workItem from="1593230575150" duration="18000" />
+      <workItem from="1593230647259" duration="37940000" />
+      <workItem from="1593320169088" duration="39219000" />
+      <workItem from="1593490106269" duration="17223000" />
+      <workItem from="1593662641454" duration="27084000" />
+      <workItem from="1593865960963" duration="1127000" />
+      <workItem from="1593902788858" duration="5810000" />
+      <workItem from="1594575194894" duration="3005000" />
+      <workItem from="1595224253113" duration="1200000" />
+      <workItem from="1595418532540" duration="31000" />
+      <workItem from="1595418603864" duration="127000" />
+      <workItem from="1595418765992" duration="877000" />
+      <workItem from="1596210198979" duration="2429000" />
+      <workItem from="1596383795397" duration="628000" />
+      <workItem from="1596425524106" duration="609000" />
+      <workItem from="1596622853973" duration="1206000" />
+      <workItem from="1597688713134" duration="599000" />
+      <workItem from="1597865056365" duration="854000" />
+      <workItem from="1597898557691" duration="1485000" />
+      <workItem from="1597956878494" duration="395000" />
+      <workItem from="1599590546570" duration="334000" />
+      <workItem from="1599590917845" duration="659000" />
+      <workItem from="1599601111314" duration="1229000" />
+      <workItem from="1599670554174" duration="6345000" />
+      <workItem from="1601989755887" duration="6347000" />
+      <workItem from="1602190454159" duration="1209000" />
+      <workItem from="1602503748518" duration="807000" />
+      <workItem from="1602508566682" duration="6000" />
+      <workItem from="1602607240973" duration="13091000" />
+      <workItem from="1602848841340" duration="1208000" />
+      <workItem from="1603185267989" duration="21738000" />
+      <workItem from="1603316244953" duration="13278000" />
+      <workItem from="1603573717273" duration="1800000" />
+      <workItem from="1603757720961" duration="11480000" />
+      <workItem from="1603874093143" duration="2404000" />
+      <workItem from="1604277178519" duration="3427000" />
+      <workItem from="1604308539523" duration="31355000" />
+      <workItem from="1607424892472" duration="6245000" />
+      <workItem from="1607526685178" duration="21552000" />
+      <workItem from="1608229596106" duration="11625000" />
+      <workItem from="1608577091138" duration="9849000" />
+      <workItem from="1608592293260" duration="291000" />
+      <workItem from="1608592617487" duration="8940000" />
+      <workItem from="1608682239628" duration="6460000" />
+      <workItem from="1608847661768" duration="3141000" />
+      <workItem from="1609196742165" duration="648000" />
+      <workItem from="1609251090713" duration="7349000" />
+      <workItem from="1609771566630" duration="10454000" />
+      <workItem from="1610418753340" duration="600000" />
+      <workItem from="1610490268800" duration="599000" />
+      <workItem from="1610491111427" duration="1281000" />
+      <workItem from="1610661499331" duration="599000" />
+      <workItem from="1610728948036" duration="599000" />
+      <workItem from="1611300323464" duration="29000" />
+      <workItem from="1614588496842" duration="15256000" />
+      <workItem from="1614606956356" duration="357000" />
+      <workItem from="1614607459148" duration="7875000" />
+      <workItem from="1614629260555" duration="2890000" />
+      <workItem from="1616580583406" duration="823000" />
+      <workItem from="1617306292696" duration="3788000" />
+      <workItem from="1617977262318" duration="9801000" />
+      <workItem from="1618098460625" duration="9000" />
+      <workItem from="1618101133817" duration="2058000" />
+      <workItem from="1618118530487" duration="4753000" />
+      <workItem from="1618257270874" duration="433000" />
+      <workItem from="1618527566649" duration="3445000" />
+      <workItem from="1618540447588" duration="3569000" />
+      <workItem from="1618575320107" duration="598000" />
+      <workItem from="1618656284280" duration="628000" />
+      <workItem from="1618659544408" duration="9785000" />
+      <workItem from="1618799703098" duration="1671000" />
+      <workItem from="1618813206637" duration="2025000" />
+      <workItem from="1618857030765" duration="702000" />
+      <workItem from="1618863530719" duration="4909000" />
+      <workItem from="1618998892983" duration="14612000" />
+      <workItem from="1619037971006" duration="330000" />
+      <workItem from="1619039711897" duration="32000" />
+      <workItem from="1619082243275" duration="94000" />
+      <workItem from="1619106281447" duration="47000" />
+      <workItem from="1619106346101" duration="5917000" />
+      <workItem from="1619151583823" duration="1155000" />
+      <workItem from="1619167863058" duration="985000" />
+      <workItem from="1619236864716" duration="1198000" />
+      <workItem from="1619318011762" duration="597000" />
+      <workItem from="1619357725769" duration="619000" />
+      <workItem from="1619452996972" duration="596000" />
+      <workItem from="1619631711186" duration="860000" />
+      <workItem from="1619784061087" duration="664000" />
+      <workItem from="1619788569977" duration="1398000" />
+      <workItem from="1619822601141" duration="17512000" />
+      <workItem from="1619973592596" duration="2001000" />
+      <workItem from="1619995696423" duration="597000" />
+      <workItem from="1620080602057" duration="6078000" />
+      <workItem from="1620194229868" duration="4305000" />
+      <workItem from="1620256601890" duration="3985000" />
+      <workItem from="1620784438206" duration="6282000" />
+      <workItem from="1620851639881" duration="1146000" />
+      <workItem from="1620946065728" duration="207000" />
+      <workItem from="1620970411420" duration="27000" />
+      <workItem from="1621538627179" duration="1565000" />
+      <workItem from="1621547187021" duration="54000" />
+      <workItem from="1621548360998" duration="29000" />
+      <workItem from="1621586746062" duration="1610000" />
+      <workItem from="1621588510426" duration="40000" />
+      <workItem from="1622541879571" duration="5672000" />
+      <workItem from="1622611703723" duration="13846000" />
+      <workItem from="1622652613385" duration="10981000" />
+      <workItem from="1622932399315" duration="417000" />
+      <workItem from="1622934158389" duration="259000" />
+      <workItem from="1622934447230" duration="22000" />
+      <workItem from="1622935678445" duration="22074000" />
+      <workItem from="1623147439099" duration="598000" />
+      <workItem from="1623180822742" duration="1895000" />
+      <workItem from="1623357059249" duration="8163000" />
+      <workItem from="1623752966971" duration="3984000" />
+      <workItem from="1623849091388" duration="72868000" />
+      <workItem from="1624245217584" duration="319000" />
+      <workItem from="1624299239920" duration="26284000" />
+      <workItem from="1624570979887" duration="3200000" />
+      <workItem from="1624750477255" duration="36796000" />
+      <workItem from="1625136277099" duration="13308000" />
+      <workItem from="1625271655035" duration="11619000" />
+      <workItem from="1625361905406" duration="8847000" />
+      <workItem from="1625540554102" duration="28854000" />
+      <workItem from="1625935901498" duration="352000" />
+      <workItem from="1625953354399" duration="25497000" />
+      <workItem from="1626048621742" duration="13686000" />
+      <workItem from="1626374159850" duration="2092000" />
+      <workItem from="1626376462763" duration="20775000" />
+      <workItem from="1626461772656" duration="31416000" />
+      <workItem from="1626981119619" duration="36220000" />
+      <workItem from="1627352441670" duration="51226000" />
+      <workItem from="1627486303973" duration="1550000" />
+      <workItem from="1627495181616" duration="77458000" />
+      <workItem from="1627780073845" duration="2092000" />
+      <workItem from="1627829931035" duration="917000" />
+      <workItem from="1627832196167" duration="233000" />
+      <workItem from="1627859483420" duration="3290000" />
+      <workItem from="1627896338337" duration="6863000" />
+      <workItem from="1628429182210" duration="10133000" />
+      <workItem from="1629292204953" duration="744000" />
+      <workItem from="1629395083890" duration="1804000" />
+      <workItem from="1634547442924" duration="20056000" />
+      <workItem from="1634629812719" duration="609000" />
+      <workItem from="1634635748778" duration="47000" />
+      <workItem from="1634636669226" duration="3133000" />
+      <workItem from="1634809472258" duration="16306000" />
+      <workItem from="1634931828625" duration="1954000" />
+      <workItem from="1634951820232" duration="28400000" />
+      <workItem from="1635131380060" duration="8933000" />
+      <workItem from="1635192114659" duration="466000" />
+      <workItem from="1635194575002" duration="250000" />
+      <workItem from="1635200646490" duration="38684000" />
+      <workItem from="1635379429001" duration="24926000" />
+      <workItem from="1635613031594" duration="640000" />
+      <workItem from="1635927700168" duration="5972000" />
+      <workItem from="1636002315878" duration="6655000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3797000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1012" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973261" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Tool Output" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="EvoSuite" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="ANTLR Preview" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/isu/isuese/datamodel/MetricSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="111" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/isu/isuese/datamodel/MetricRepositorySpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="24" column="92" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/MetricRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/util/DbUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/montana/gsoc/msusel/util/MetricNameRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="105" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/util/MetricRegistry.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/isu/isuese/datamodel/util/MetricsRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/msusel_codetree$edu_in_msusel_pattern_generator.ic" NAME="edu in msusel-pattern-generator Coverage Results" MODIFIED="1587191389400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/msusel_codetree$edu_isu_isuese_detstrat_impl_in_isuese_detstrat.ic" NAME="edu.isu.isuese.detstrat.impl in isuese-detstrat Coverage Results" MODIFIED="1587208208693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.isu.isuese.detstrat.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/msusel_codetree$edu_in_msusel_codetree.ic" NAME="edu in msusel-codetree Coverage Results" MODIFIED="1587187151273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/msusel_codetree$ModularGrimeDetectorTest_detectGrime.ic" NAME="ModularGrimeDetectorTest.detectGrime Coverage Results" MODIFIED="1587423481926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.isu.isuese.detstrat.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/msusel_codetree$SPSConformanceSpec_testGetUnboundRoles.ic" NAME="SPSConformanceSpec.testGetUnboundRoles Coverage Results" MODIFIED="1579193924727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.montana.gsoc.msusel.rbml.conformance.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/msusel_codetree$edu___and_11_more.ic" NAME="edu.* and 11 more Coverage Results" MODIFIED="1587193105955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/msusel_codetree$ModularGrimeDetectorTest.ic" NAME="ModularGrimeDetectorTest Coverage Results" MODIFIED="1587666425825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.isu.isuese.detstrat.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/msusel_codetree$edu_in_msusel_rbml_dsl.ic" NAME="edu in msusel-rbml-dsl Coverage Results" MODIFIED="1587191807884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/msusel_codetree$edu___and_7_more.ic" NAME="edu.* and 7 more Coverage Results" MODIFIED="1587193470179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/msusel_codetree$All_in_msusel_software_injector.ic" NAME="All in msusel-software-injector Coverage Results" MODIFIED="1587193611505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

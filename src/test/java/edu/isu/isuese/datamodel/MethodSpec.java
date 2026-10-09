@@ -1,3 +1,29 @@
+/*
+ * The MIT License (MIT)
+ *
+ * MSUSEL DataModel
+ * Copyright (c) 2015-2019 Montana State University, Gianforte School of Computing,
+ * Software Engineering Laboratory and Idaho State University, Informatics and
+ * Computer Science, Empirical Software Engineering Laboratory
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 package edu.isu.isuese.datamodel;
 
 import org.javalite.activejdbc.test.DBSpec;
@@ -14,7 +40,7 @@ public class MethodSpec extends DBSpec {
         method.setAccessibility(Accessibility.PUBLIC);
         a(method).shouldBe("valid");
         method.save();
-        method = Method.findById(1);
+        method = (Method) Method.findAll().get(0);
         a(method.getId()).shouldNotBeNull();
         a(method.get("accessibility")).shouldBeEqual(Accessibility.PUBLIC.value());
         a(method.getAccessibility()).shouldBeEqual(Accessibility.PUBLIC);
@@ -47,7 +73,7 @@ public class MethodSpec extends DBSpec {
         Parameter param = Parameter.createIt("name", "param");
         method.add(param);
 
-        method = Method.findById(1);
+        method = (Method) Method.findAll().get(0);
         method.remove(param);
 
         a(Parameter.count()).shouldBeEqual(0);
@@ -70,7 +96,7 @@ public class MethodSpec extends DBSpec {
         method.setReturnType(typeRef);
 
         a(method.getAll(TypeRef.class).size()).shouldBeEqual(1);
-        a(TypeRef.count()).shouldBeEqual(1);
+        a(TypeRef.count()).shouldBeEqual(2);
     }
 
     @Test
@@ -80,7 +106,7 @@ public class MethodSpec extends DBSpec {
         method.addModifier(Modifier.Values.STATIC.name());
         method.save();
 
-        a(Method.findById(1).getAll(Modifier.class).size()).shouldBeEqual(1);
+        a(Method.findAll().get(0).getAll(Modifier.class).size()).shouldBeEqual(1);
     }
 
     @Test
@@ -90,7 +116,7 @@ public class MethodSpec extends DBSpec {
         method.addModifier(Modifier.Values.STATIC.name());
         method.save();
 
-        method = Method.findById(1);
+        method = (Method) Method.findAll().get(0);
         method.removeModifier(Modifier.Values.STATIC.name());
         a(method.getAll(Modifier.class).size()).shouldBeEqual(0);
     }
@@ -105,7 +131,7 @@ public class MethodSpec extends DBSpec {
         a(method.getAll(TypeRef.class).size()).shouldBeEqual(1);
         method.setType(typeRef2);
         a(method.getAll(TypeRef.class).size()).shouldBeEqual(1);
-        a(TypeRef.count()).shouldBeEqual(1);
+        a(TypeRef.count()).shouldBeEqual(2);
     }
 
     @Test

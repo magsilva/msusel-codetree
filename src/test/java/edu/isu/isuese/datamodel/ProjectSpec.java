@@ -1,3 +1,29 @@
+/*
+ * The MIT License (MIT)
+ *
+ * MSUSEL DataModel
+ * Copyright (c) 2015-2019 Montana State University, Gianforte School of Computing,
+ * Software Engineering Laboratory and Idaho State University, Informatics and
+ * Computer Science, Empirical Software Engineering Laboratory
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 package edu.isu.isuese.datamodel;
 
 import org.javalite.activejdbc.test.DBSpec;
@@ -13,7 +39,7 @@ public class ProjectSpec extends DBSpec {
         proj.set("projKey", "proj", "name", "proj", "version", "1.0");
         a(proj).shouldBe("valid");
         proj.save();
-        proj = Project.findById(1);
+        proj = (Project) Project.findAll().get(0);
         a(proj.getId()).shouldNotBeNull();
         a(proj.get("name")).shouldBeEqual("proj");
         a(proj.get("projKey")).shouldBeEqual("proj");
@@ -37,7 +63,7 @@ public class ProjectSpec extends DBSpec {
         p.addPatternInstance(inst);
 
         a(p.getAll(PatternInstance.class).size()).shouldBeEqual(1);
-        p = Project.findById(1);
+        p = (Project) Project.findAll().get(0);
         p.removePatternInstance(inst);
         a(p.getAll(PatternInstance.class).size()).shouldBeEqual(0);
     }
@@ -58,7 +84,7 @@ public class ProjectSpec extends DBSpec {
         p.addMeasure(meas);
 
         a(p.getAll(Measure.class).size()).shouldBeEqual(1);
-        p = Project.findById(1);
+        p = (Project) Project.findAll().get(0);
         p.removeMeasure(meas);
         a(p.getAll(Measure.class).size()).shouldBeEqual(0);
     }
@@ -79,7 +105,7 @@ public class ProjectSpec extends DBSpec {
         p.addFinding(finding);
 
         a(p.getAll(Finding.class).size()).shouldBeEqual(1);
-        p = Project.findById(1);
+        p = (Project) Project.findAll().get(0);
         p.removeFinding(finding);
         a(p.getAll(Finding.class).size()).shouldBeEqual(0);
     }
@@ -100,7 +126,7 @@ public class ProjectSpec extends DBSpec {
         p.addRelation(rel);
 
         a(p.getAll(Relation.class).size()).shouldBeEqual(1);
-        p = Project.findById(1);
+        p = (Project) Project.findAll().get(0);
         p.removeRelation(rel);
         a(p.getAll(Relation.class).size()).shouldBeEqual(0);
     }
@@ -123,7 +149,7 @@ public class ProjectSpec extends DBSpec {
         p.addSCM(scm);
 
         a(p.getAll(SCM.class).size()).shouldBeEqual(1);
-        p = Project.findById(1);
+        p = (Project) Project.findAll().get(0);
         p.removeSCM(scm);
         a(p.getAll(SCM.class).size()).shouldBeEqual(0);
     }
@@ -144,7 +170,7 @@ public class ProjectSpec extends DBSpec {
         p.addModule(module);
 
         a(p.getAll(Module.class).size()).shouldBeEqual(1);
-        p = Project.findById(1);
+        p = (Project) Project.findAll().get(0);
         p.removeModule(module);
         a(p.getAll(Module.class).size()).shouldBeEqual(0);
     }
@@ -165,7 +191,7 @@ public class ProjectSpec extends DBSpec {
         p.addLanguage(lang);
 
         a(p.getAll(Language.class).size()).shouldBeEqual(1);
-        p = Project.findById(1);
+        p = (Project) Project.findAll().get(0);
         p.removeLanguage(lang);
         a(p.getAll(Language.class).size()).shouldBeEqual(0);
     }
